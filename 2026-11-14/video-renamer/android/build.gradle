@@ -1,0 +1,21 @@
+buildscript {
+    repositories {
+        maven { url = 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.12.0'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:2.2.10'
+        classpath 'org.jetbrains.kotlin:compose-compiler-gradle-plugin:2.2.10'
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url = 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
+        maven { url = 'https://jitpack.io' }
+    }
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

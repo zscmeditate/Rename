@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 青绿强调 -->
+    <color name="emerald_200">#A7F3D0</color>
+    <color name="emerald_300">#6EE7B7</color>
+    <color name="emerald_400">#34D399</color>
+    <color name="emerald_500">#10B981</color>
+    <color name="emerald_600">#059669</color>
+    <color name="emerald_700">#047857</color>
+
+    <!-- 背景体系 -->
+    <color name="ink_950">#0B1220</color>
+    <color name="ink_925">#0F172A</color>
+    <color name="ink_900">#111827</color>
+    <color name="ink_800">#2B3B4F</color>
+    <color name="ink_700">#334155</color>
+    <color name="ink_600">#475569</color>
+    <color name="ink_500">#64748B</color>
+    <color name="ink_400">#94A3B8</color>
+    <color name="ink_300">#CBD5E1</color>
+    <color name="ink_100">#F1F5F9</color>
+
+    <color name="bg_card">#111827</color>
+    <color name="bg_card_alt">#0F172A</color>
+
+    <color name="colorPrimary">#10B981</color>
+    <color name="colorPrimaryDark">#0B1220</color>
+    <color name="colorAccent">#10B981</color>
+
+</resources>
