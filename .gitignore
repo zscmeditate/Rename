@@ -3,9 +3,7 @@
 **/.gradle/
 **/.kotlin/
 **/local.properties
-*.apk
 *.aab
-*.exe
 
 # 测试数据（可本地重新生成）
 2026-11-14/video-renamer/test-case/
